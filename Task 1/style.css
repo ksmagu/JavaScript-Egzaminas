@@ -1,0 +1,90 @@
+/* Resets */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+
+/* Mobile first */
+.wrapper {
+  min-height: 100vh;
+  min-width: calc(100vw - (100vw - 100%));
+  background-color: #fec631;
+}
+
+.headline {
+  padding-top: 100px;
+  font-size: 2.5em;
+  text-align: center;
+  color: #000;
+  text-transform: uppercase;
+}
+
+form {
+  max-width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#search {
+  width: 65%;
+  margin: 0;
+  padding: 20px;
+  outline: 0;
+  border: 0;
+  font-size: 1.1em;
+}
+
+#submit-btn {
+  width: 35%;
+  background-color: #f7f7f7;
+  border: 0;
+  outline: 0;
+  font-size: 1.1em;
+}
+
+#submit-btn:hover {
+  cursor: pointer;
+  background-color: #000;
+  color: #fff;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  .headline {
+    font-size: 3.5em;
+  }
+
+  #search,
+  #submit-btn {
+    font-size: 2em;
+  }
+}
+
+#output {
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 20rem;
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: #f7f7f755;
+}
+
+h2 {
+  padding: 2rem;
+}
+
+h3 {
+  padding-bottom: .25rem;
+}
+
+div .center {
+  display: flex;
+  justify-content: center;
+}
